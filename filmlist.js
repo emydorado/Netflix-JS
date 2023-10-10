@@ -1,4 +1,4 @@
-class film {
+class films {
     constructor(id, title, Rating, sinopsis, Clasificación, banner, Tarjeta) {
         this.id = id
         this.title = title
@@ -12,6 +12,8 @@ class film {
         <div class="film" onclick='filmSelected(${position})'>
         <h1>${this.title}</h1>
         <p>${this.sinopsis}</p>
+        src="${this.banner[0]}"/>
+        src="${this.Tarjeta[0]}"/>
         `
     }
 }
